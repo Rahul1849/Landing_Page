@@ -1,0 +1,153 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    .featured-section {
+      position: relative;
+      text-align: center;
+      background-color: #f5f5f5;
+      padding: 20px;
+      height: 80vh;
+      border: 2px solid #ccc;
+      border-radius: 10px;
+      margin-top: 6vh;
+      margin-left: 4ch;
+      margin-right: 4ch;
+    
+    }
+
+    .discount-message {
+      position: absolute;
+      top: 15px;
+      left: 112px;
+      font-size: 22px;
+      font-weight: bold;
+      color: #307017;
+      /* background-color: #ff5733; */
+      padding: 10px;
+      border-radius: 5px;
+    }
+    .premium-text {
+        position: absolute;
+      top: 87px;
+      left: 122px;
+      font-size: 20px;
+      font-weight: bold;
+      color: rgb(197, 197, 17);
+      margin-bottom: 10px; 
+    }
+
+
+    .circle {
+      position: absolute;
+      top: 10px;
+      right: 100px;
+      display: inline-block;
+      width: 150px;
+      height: 150px;
+      background-color: #fff;
+      border-radius: 50%;
+      overflow: hidden;
+      
+    }
+
+    .tshirt-image {
+      /* position: absolute; */
+      top: 30px;
+      right: 100px;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      margin-right: 4ch;
+    }
+
+    .description {
+      position: absolute;
+      top: 115px;
+      left: 122px;
+      max-width: 600px;
+      margin: 20px auto;
+      font-size: 16px;
+      line-height: 1.5;
+      text-align: justify;
+    }
+
+    .icons {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 520px;
+      align-items: center;
+      /* position: absolute;  */
+      /* position: absolute;
+      bottom: 20px;
+      width: 100%; */
+      /* justify-content: space-around; */
+    }
+    .icon-container {
+      text-align: center;
+    }
+
+    .icons img {
+      width: 40px;
+      height: 40px;
+      margin-bottom: 5px;
+    }
+
+    @media (max-width: 768px) {
+      .circle {
+        width: 120px;
+        height: 120px;
+        margin-left: 0;
+      }
+     
+      /* .icons img {
+        width: 30px;
+        height: 30px;
+      } */
+    }
+  </style>
+</head>
+<body>
+
+  <div class="featured-section">
+    <div class="discount-message">FLAT 50% OFF ON ALL BRANDS</div>
+    <div class="premium-text">Premium T-shirt</div>
+    <div class="circle">
+      <img src="https://img.freepik.com/free-psd/isolated-white-t-shirt-front-view_125540-1194.jpg" alt="T-shirt" class="tshirt-image">
+      <div> Premium T-shirt</div>
+    </div>
+    <div class="description">
+      <p>This premium t-shirt is as close to perfect a can be. It's optimized for all types of print and will quickly became your favourite t-shirt. Soft, comfortable and durable, this is a definite must-own and a Spreadshirt recommended product. 100% cotton (heather gray is 95% cotton / 5% viscose. Heather Blue & Charcoal Gray are 80% Cotton / 20% Polyster) | Fabric Weight: 5.29 oz (heavyweight) Wide range of sizes from S-5XL Fairly produced, certified and triple audited. Double stiched, reinforced seams at shoulder, sleeve, collar and waist.</p>
+    </div>
+   <div class="icons">
+        <div class="icon-container">
+          <img src="https://cdn-icons-png.flaticon.com/128/3010/3010989.png" alt="Icon 1">
+          <div>Designed with Love in India</div>
+        </div>
+        <div class="icon-container">
+          <img src="https://cdn-icons-png.flaticon.com/128/1598/1598196.png" alt="Icon 2">
+          <div>Environment Friendly</div>
+        </div>
+        <div class="icon-container">
+          <img src="https://cdn-icons-png.flaticon.com/128/726/726488.png" alt="Icon 3">
+          <div>100% Secure Online Payments</div>
+        </div>
+        <div class="icon-container">
+          <img src="https://cdn-icons-png.flaticon.com/128/609/609361.png" alt="Icon 4">
+          <div>Shipping across India</div>
+        </div>
+  </div>
+
+</body>
+</html> 
+
